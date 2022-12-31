@@ -1,0 +1,495 @@
+body {
+    margin: 0px;
+    font-family: 'Times New Roman';
+}
+.main {
+    width: 100%;
+}
+
+/* Topnav */
+.Top {
+    background-color: black;
+    height: 40px;
+}
+
+.topnav{
+    width: 100%;
+    background-color: white;
+    height: 140px;
+}
+
+
+.topnav ul li {
+    float: left;
+    list-style: none;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+.topnav ul li a{
+    float: left;
+    text-decoration: none;
+    color: #515155;
+    font-size: 20px;
+
+}
+
+.topnav ul li a:hover{
+    color: #202020;
+    font-weight: bold;
+
+}
+
+.topnav #button{
+    background: rgb(242, 244, 244);
+    margin-left: 515px;
+}
+
+.topnav #button {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    color: #515155;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+#button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    height: 550px;
+    background-image: url(img/hdr_bg.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.hdrLeft {
+    width: 50%;
+    height: 430px;
+    font-size: 30px;
+    float: left;
+}
+
+.hdrLeft h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 120px;
+}
+
+.hdrLeft p {
+    font-size: small;
+    text-align: left;
+    padding-left: 120px;
+}
+
+.hdrLeftButton {
+    margin-top: 30px;
+    padding-left: 120px;
+}
+
+.hdrLeftButton #hdrLB {
+    background-color: black;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.hdrLeftButton #hdrLB:hover {
+    background-color: white;
+    color: black;
+}
+
+.hdrRight {
+    width: 50%;
+    height: 430px;
+    float: left;
+}
+
+/* cl1 */
+.cl1 {
+    clear: both;
+    width: 100%;
+    height: 320px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-image: url(img/hty.png);
+    background-size: contain;
+    padding-top: 25px;
+}
+
+.cl1 h3 {
+    color: white;
+    font-size: 38px;
+}
+
+.cl1 p{
+    font-size: 12px;
+    color: white;
+}
+
+.cl1 #Vlg {
+    background-color: white;
+    color: black; 
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-color: white;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cl1 #Vlg:hover {
+    background-color: black;
+    color: white;
+}
+
+.cl2{
+    height: 500px;
+    padding-top: 160px;
+    background-image: url(img/cl2_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cl2-1{
+    width: 33.3%;
+    float: left;
+    height: 500px;
+}
+
+.cl2-1 img{
+    padding-left: 110px;
+}
+
+.cl2-1 h3{
+    padding-left: 110px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.cl2-1 h3 a{
+    text-decoration: none;
+    color: black;
+}
+
+.cl2-1 p{
+    padding-left: 110px;
+    padding-right: 40px;
+    font-size: 12px;
+    text-align: justify;
+    
+}
+
+.cl2-2{
+    width: 33.3%;
+    float: left;
+    height: 500px;
+}
+
+.cl2-2 img{
+    padding-left: 76px;
+}
+
+.cl2-2 h3{
+    padding-left: 76px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.cl2-2 h3 a{
+    text-decoration: none;
+    color: black;
+}
+
+.cl2-2 p{
+    padding-left: 76px;
+    padding-right: 56px;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.cl2-3{
+    width: 33.3%;
+    float: left;
+    height: 500px;
+}
+
+.cl2-3 img{
+    padding-left: 46px;
+}
+
+.cl2-3 h3{
+    padding-left: 46px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.cl2-3 h3 a{
+    text-decoration: none;
+    color: black;
+}
+
+.cl2-3 p{
+    padding-left: 46px;
+    padding-right: 78px;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.cl3{
+    height: 600px;
+    background-image: url(Img/cl3.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-top: 250px;
+
+}
+
+.cl3 h3{ 
+    font-size:60px;
+}
+
+.cl3 p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cl4{
+    height: 640px;
+    padding-top: 76px;
+    background-color:black;
+    background-image: url(img/cl4_bg.png);
+    background-repeat: no-repeat;
+    background-position:bottom left;
+}
+
+.cl4-lft{
+    width: 50%;
+    float: left;
+    padding-top: 32px;
+}
+
+.cl4-lft h3{
+    padding-left: 80px;
+    font-size: 40px;
+    color: white;
+}
+
+.cl4-lft h4{
+    padding-left: 80px;
+    font-size: 20px;
+    color: white;
+}
+
+.cl4-lft p{
+    padding-left: 80px;
+    padding-right: 80px;
+    color: white;
+}
+
+.cl4-rht{
+    width: 50%;
+    float: left;
+}
+
+.cl5{
+    height: 640px;
+}
+
+.cl5-lft{
+    width: 60%;
+    height: 680px;
+    float: left;
+}
+
+.cl5-lft h2{
+    padding-top: 80px;
+    font-size: 60px;
+}
+
+.cl5-lft summary{ 
+    font-size: 16px;
+    
+}
+
+.cl5-lft details{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.cl5-lft summary:hover{
+    cursor: pointer;
+}
+
+details > summary {
+    list-style: none;
+  }
+
+.cl5-lft hr{
+    width: 600px;
+}
+
+.cl5-rht{
+    width: 40%;
+    height: 680px;
+    float: left;
+}
+
+.cl5-rht img{
+    padding-left: 80px;
+    padding-top: 80px;
+}
+
+.cl6{
+    height: 800px;
+    background-image: url(img/cl6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cl6 h2{
+    padding-top: 160px;
+    font-size: 46px;
+}
+
+.cl6-1{
+    width: 25%;
+    float: left;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-left: 50px;
+    padding: 40px;
+}
+
+.cl6-2{
+    width: 25%;
+    float: left;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-left: 16px;
+    padding: 40px;
+}
+
+.cl6-3{
+    width: 25%;
+    float: left;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-left: 16px;
+    padding: 40px;
+}
+
+.cl7{
+    height: 720px;
+}
+
+.cl7-lft{
+    width: 45%;
+    height: 720px;
+    float: left;
+}
+
+.cl7-lft h3{ 
+    padding-top: 12px;
+    padding-left: 120px;
+    font-size: 80px;  
+}
+
+.cl7-lft input{
+    margin-left: 120px;
+    margin-bottom: 20px;
+    padding-right: 240px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.cl7-lft textarea{
+    margin-left: 120px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.cl7-lft #cl7-btn{
+    margin-top:36px;
+    background-color: black;
+    color: white;
+    padding-left: 162px;
+    padding-right: 162px;
+
+}
+
+.cl7-lft #cl7-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.cl7-rht{
+    width: 55%;
+    height: 720px;
+    float: left;
+}
+
+.cl7-rht img{
+    padding-top: 44px;
+    padding-left: 60px;
+}
+
+.footer{
+    background-color: gray;
+    height: 300px;
+}
+
+.ftr-lft{
+    width: 30%;
+    float: left;
+}
+
+.ftr-lft h4{
+    padding-left: 100px;
+    padding-top: 34px;
+    font-size: 50px;
+}
+
+.ftr-rht{
+    width: 70%;
+    float: left;
+}
+
+.ftr-rht h4{
+    padding-top: 50px;
+    padding-left: 40px;
+    font-size: 22px;
+}
+
+.ftr-rht ul{
+    float: left;
+    list-style: none;
+    padding-right: 80px;
+}
+
+.ftr-rht ul li{
+    padding-bottom: 16px;
+}
+
+.ftr-rht ul li:hover{
+    font-size: larger;
+    font-weight: bolder;
+}
